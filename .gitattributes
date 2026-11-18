@@ -1,0 +1,10 @@
+* text=auto eol=lf
+*.hex text eol=lf
+*.eep text eol=lf
+
+# Windows-only toolchains (Delphi, ICCAVR): keep CRLF
+tools/nmea-simulator/** text eol=crlf
+bootloader/src/** text eol=crlf
+*.res binary
+*.md text eol=lf
+LICENSE text eol=lf

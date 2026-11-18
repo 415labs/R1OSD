@@ -1,0 +1,32 @@
+# AVR build output
+firmware/build/
+*.o
+*.d
+*.elf
+*.map
+*.lss
+
+# AVR Studio
+*.aws
+
+# ImageCraft ICCAVR build output
+*.lis
+*.lst
+*.cof
+*.dbg
+*.mp
+*.lk
+*.mak
+*.SRC
+
+# Delphi
+*.dcu
+*.exe
+*.identcache
+*.local
+*.cfg
+__history/
+
+# OS
+.DS_Store
+Thumbs.db
